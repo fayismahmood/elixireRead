@@ -1,0 +1,23 @@
+.PgCont {
+  border-radius: 8px;
+  box-shadow: 0 0 20px -15px #070d13;
+}
+.PgCont p {
+  font-family: roboto;
+}
+.PgCont p a {
+  color: #2196f3;
+  text-decoration: underline 1px solid #2196f3;
+}
+.PgCont p a:hover {
+  text-decoration: underline 2px solid #2196f3;
+}
+
+.PgCont p a * {
+  color: #2196f3 !important;
+}
+.Break {
+  height: 50px;
+  width: 150px;
+  background: red;
+}
