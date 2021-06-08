@@ -1,6 +1,6 @@
 {
   "name": "elixireread",
-  "version": "1.4.17",
+  "version": "1.0.0",
   "author": "Michael Williamson <mike@zwobble.org>",
   "description": "Convert Word documents from docx to simple HTML and Markdown",
   "keywords": [
@@ -41,13 +41,6 @@
     "./lib/unzip.js": "./browser/unzip.js",
     "./lib/docx/files.js": "./browser/docx/files.js"
   },
-  "bin": {
-    "mammoth": "bin/mammoth"
-  },
-  "scripts": {
-    "pretest": "eslint lib test",
-    "test": "mocha 'test/**/*.tests.js'",
-    "prepublish": "make mammoth.browser.min.js"
-  },
+  
   "license": "BSD-2-Clause"
 }
